@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Ejemplo Forms
+        </title>
+    </head>
+
+    <h1>Register</h1>
+
+    <body>
+        <form>
+            <div>
+                <label for="fname">First Name:</label>
+                <input id="fname" name="FistName" type="text" placeholder="john" required>
+                <label for="lname">Last Name:</label>
+                <input id="lname" name="LastName" type="text" placeholder="smith" required>
+            </div>
+            <div>
+                <label for="male">Male:</label>
+                <input id="male" name="sex" type="radio" value="MALE" checked>
+                <label for="female">Female:</label>
+                <input id="female" name="sex" type="radio" value="FEMALE">
+                <label for="other">Other:</label>
+                <input id="other" name="sex" type="radio" value="OTHER">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" placeholder="your E-mail" required>
+                <label for="pswd">Password:</label>
+                <input id="pswd" name="pass" type="password" required>
+            </div>
+            <div>
+                <label for="date1">Birthday:</label>
+                <select name="mnth" id="date1" required>
+                    <option value="1">Month</option>            
+                </select>
+                <select name="day" id="date1" required>
+                    <option value="2">Day</option>
+                </select>
+                <select name="yr" id="date1" required>
+                    <option value="3">Year</option>
+                </select>
+            </div>
+            <div>
+                <label for="terms">I agree to the terms and conditions</label>
+                <input name="conditions" id="terms" type="checkbox" required>
+            </div>
+            <button>submit</button>
+        </form>
+    </body>
+</html>

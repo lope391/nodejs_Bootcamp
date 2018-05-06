@@ -1,0 +1,45 @@
+body{
+    border: 20px solid #b0b6c1;
+    margin: 20px auto;
+    max-width: 700px;
+    width: 80%;
+    font-family: 'Source Sans Pro';
+}
+
+.post{
+    padding: 20px;
+    
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+h1{
+    letter-spacing: 3px;
+    color: #1c85b2;
+    margin: 0;
+    font-size: 23px;
+    font-weight: 400;      
+}
+
+h2{
+    margin: 0;
+    padding: 20px 0 20px 0;
+    color: #0b2e3d;
+    font-weight: 700;
+    font-size: 40px; 
+}
+
+.description{
+    border-left: 5px solid #b0b6c1;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 0; 
+}
+
+.content{
+    font-weight: 400;
+    font-size: 18px;
+}
